@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto Mono', monospace;
+}
+
+body
+{	
+	margin: 3%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: linear-gradient(45deg, #adadad, #577aaf);
+}
+
+.intro
+{	
+	padding: 2%;
+	position: absolute;
+	background: #24292f;
+	border-radius: 20px;
+	box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.75);
+}
+
+.intro h1
+{
+	color: #fff;
+	text-transform: uppercase;
+	border-bottom: 2px solid #fff;
+	padding: 1%;
+}
+
+
+.intro .education
+{	
+	padding-top: 1%;
+	color: #fff;
+}
+
+.intro .address
+{
+	color: #fff;
+}
+
+.intro .hobbies
+{
+	color: #fff;
+}
+
+.intro .working
+{
+	color: #fff;
+}
+
+.intro .relation
+{
+	color: #fff;
+}
+
+.intro .contract
+{
+	color: #fff;
+}
+
+.intro .btn
+{	
+	position: relative;
+}
+
+.intro .btn a
+{	
+	text-decoration: none;
+	color: #fff;
+	background: #577aaf;
+	padding: 1.5%;
+	font-weight: 600;
+	border-radius: 7px;
+	float: right;
+}
